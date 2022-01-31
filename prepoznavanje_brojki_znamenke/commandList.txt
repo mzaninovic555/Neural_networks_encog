@@ -1,0 +1,87 @@
+CreateTraining: width:6,height:6,type:RGB
+Input: image:./numbers/calibri0.png, identity:0
+Input: image:./numbers/calibri1.png, identity:1
+Input: image:./numbers/calibri2.png, identity:2
+Input: image:./numbers/calibri3.png, identity:3
+Input: image:./numbers/calibri4.png, identity:4
+Input: image:./numbers/calibri5.png, identity:5
+Input: image:./numbers/calibri6.png, identity:6
+Input: image:./numbers/calibri7.png, identity:7
+Input: image:./numbers/calibri8.png, identity:8
+Input: image:./numbers/calibri9.png, identity:9
+Input: image:./numbers/calibri_slash.png, identity:/
+Input: image:./numbers/calibri_line.png, identity:-
+Input: image:./numbers/arial0.png, identity:0
+Input: image:./numbers/arial1.png, identity:1
+Input: image:./numbers/arial2.png, identity:2
+Input: image:./numbers/arial3.png, identity:3
+Input: image:./numbers/arial4.png, identity:4
+Input: image:./numbers/arial5.png, identity:5
+Input: image:./numbers/arial6.png, identity:6
+Input: image:./numbers/arial7.png, identity:7
+Input: image:./numbers/arial8.png, identity:8
+Input: image:./numbers/arial9.png, identity:9
+Input: image:./numbers/arial_slash.png, identity:/
+Input: image:./numbers/arial_line.png, identity:-
+Input: image:./numbers/bierstadt0.png, identity:0
+Input: image:./numbers/bierstadt1.png, identity:1
+Input: image:./numbers/bierstadt2.png, identity:2
+Input: image:./numbers/bierstadt3.png, identity:3
+Input: image:./numbers/bierstadt4.png, identity:4
+Input: image:./numbers/bierstadt5.png, identity:5
+Input: image:./numbers/bierstadt6.png, identity:6
+Input: image:./numbers/bierstadt7.png, identity:7
+Input: image:./numbers/bierstadt8.png, identity:8
+Input: image:./numbers/bierstadt9.png, identity:9
+Input: image:./numbers/bierstadt_slash.png, identity:/
+Input: image:./numbers/bierstadt_line.png, identity:-
+Input: image:./numbers/courier0.png, identity:0
+Input: image:./numbers/courier1.png, identity:1
+Input: image:./numbers/courier2.png, identity:2
+Input: image:./numbers/courier3.png, identity:3
+Input: image:./numbers/courier4.png, identity:4
+Input: image:./numbers/courier5.png, identity:5
+Input: image:./numbers/courier6.png, identity:6
+Input: image:./numbers/courier7.png, identity:7
+Input: image:./numbers/courier8.png, identity:8
+Input: image:./numbers/courier9.png, identity:9
+Input: image:./numbers/courier_slash.png, identity:/
+Input: image:./numbers/courier_line.png, identity:-
+Input: image:./numbers/droidSans0.png, identity:0
+Input: image:./numbers/droidSans1.png, identity:1
+Input: image:./numbers/droidSans2.png, identity:2
+Input: image:./numbers/droidSans3.png, identity:3
+Input: image:./numbers/droidSans4.png, identity:4
+Input: image:./numbers/droidSans5.png, identity:5
+Input: image:./numbers/droidSans6.png, identity:6
+Input: image:./numbers/droidSans7.png, identity:7
+Input: image:./numbers/droidSans8.png, identity:8
+Input: image:./numbers/droidSans9.png, identity:9
+Input: image:./numbers/droidSans_slash.png, identity:/
+Input: image:./numbers/droidSans_line.png, identity:-
+Input: image:./numbers/everson0.png, identity:0
+Input: image:./numbers/everson1.png, identity:1
+Input: image:./numbers/everson2.png, identity:2
+Input: image:./numbers/everson3.png, identity:3
+Input: image:./numbers/everson4.png, identity:4
+Input: image:./numbers/everson5.png, identity:5
+Input: image:./numbers/everson6.png, identity:6
+Input: image:./numbers/everson7.png, identity:7
+Input: image:./numbers/everson8.png, identity:8
+Input: image:./numbers/everson9.png, identity:9
+Input: image:./numbers/everson_slash.png, identity:/
+Input: image:./numbers/everson_line.png, identity:-
+Network: hidden1:128, hidden2:128
+Train: Mode:gui, Minutes:0, StrategyError:0.15,StrategyCycles:200
+Whatis: image:./numbers/mergeArial1.png
+Whatis: image:./numbers/mergeBierstadt1.png
+Whatis: image:./numbers/mergeCourier1.png
+Whatis: image:./numbers/mergeCalibri1.png
+Whatis: image:./numbers/mergeDroid1.png
+Whatis: image:./numbers/mergeEverson1.png
+Whatis: image:./numbers/mergeLetterGothic1NT.png
+Whatis: image:./numbers/mergeNimbus1NT.png
+Whatis: image:./numbers/mergeBierstadt1RedNT.png
+Whatis: image:./numbers/mergeCalibri1GreenNT.png
+Whatis: image:./numbers/mergeCourier1BlueLetterNT.png
+Whatis: image:./numbers/mergeDroidRedLetter1NT.png
